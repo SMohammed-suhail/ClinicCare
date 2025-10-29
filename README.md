@@ -1,23 +1,6 @@
-# Welcome to your Lovable project
+ClinicCares is a web-based clinic management system designed to streamline operations for doctors, receptionists, and patients. With separate login roles for doctors and receptionists, the system handles token generation, patient information management, prescription tracking, and billing—ensuring a smooth workflow from patient entry to checkout.
 
-## Project info
-
-**URL**: https://lovable.dev/projects/cafc9ffa-853a-48cb-9f6d-f677e4d2462f
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/cafc9ffa-853a-48cb-9f6d-f677e4d2462f) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
+live demo -  https://cliniccares.netlify.app/
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
 Follow these steps:
@@ -60,14 +43,42 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+# Login Credentials (for demo/testing) -
 
-Simply open [Lovable](https://lovable.dev/projects/cafc9ffa-853a-48cb-9f6d-f677e4d2462f) and click on Share -> Publish.
+Doctor: Sign up using the “Doctor” role option.
 
-## Can I connect a custom domain to my Lovable project?
+Receptionist: Sign up using the “Receptionist” role option.
 
-Yes, you can!
+Alternatively, insert demo accounts in the database for quick testing.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+# Workflow Overview -
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+The receptionist logs in and registers a new patient or selects an existing patient.
+
+Upon registration or new entry, the system issues a token automatically.
+
+The patient waits and is then seen by the doctor, who logs in with their account, views the patient’s information and prior history, and records or updates the prescription.
+
+After the consultation, the receptionist records any charges or fees associated with the visit.
+
+The system uses the recorded charges to generate a bill, which can be printed or downloaded for the patient.
+
+# Future Enhancements -
+
+Add more roles (e.g., Nurse, Lab Technician, Admin).
+
+Integrate certificate generation or patient discharge summary.
+
+Email/SMS notifications for appointment reminders or token status.
+
+Secure payment gateway integration for bills.
+
+Analytics dashboard for doctors and clinic management (visit trends, revenue, etc.).
+
+Mobile-friendly or PWA version for easy access on tablets/phones.
+
+# Acknowledgments -
+
+Special thanks to all contributors and open-source libraries used in this project.
+
+ 
