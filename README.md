@@ -1,6 +1,8 @@
 ClinicCares is a web-based clinic management system designed to streamline operations for doctors, receptionists, and patients. With separate login roles for doctors and receptionists, the system handles token generation, patient information management, prescription tracking, and billing—ensuring a smooth workflow from patient entry to checkout.
 
 live demo -  https://cliniccares.netlify.app/
+
+
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
 Follow these steps:
